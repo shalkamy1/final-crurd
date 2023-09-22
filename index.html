@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Add new product</h1>
+    </div>
+    <div class="mainform">
+        <div class="producttitle"><input type="text" placeholder="product title">
+            <span class="invalid">You must enter data</span>
+        </div>
+       
+        <div class="total"><input type="text" placeholder="price" class="pticeinputs">
+            <span class="invalid">You must enter data</span>
+            <input type="text" placeholder="tax" class="pticeinputs">
+          
+            <input type="text" placeholder="discount" class="pticeinputs">
+        
+            <input type="text" placeholder="total" class="pticeinputs" readonly>
+            
+        </div>
+        <div class="added"><input type="text" placeholder="count of added" >
+            <span class="invalid">You must enter data</span></div>
+        <div class="department"><input type="text" placeholder="department" >
+            <span class="invalid">You must enter data</span></div>
+        <div class="btn"><button class="addButton">Add this product</button>
+        </div>
+    </div>
+    <div class="maintable">
+         <h1>list all products</h1>
+         <div class="ttable"> 
+       <table> 
+        <thead>  
+            <button class="clear" onc>clear</button>
+            <tr>
+            <th><h3>id</h3></th>   
+            <th><h3>title </h3></th> 
+            <th><h3>price</h3></th>
+            <th><h3>tax</h3></th>
+            <th><h3>discount</h3></th>
+            <th><h3>total</h3></th>
+            <th><h3>department</h3></th>
+            <th colspan="2"><h3> Action</h3></th>
+         </tr>
+        </thead>  
+        <tbody>
+     
+     </tbody> 
+        </table></div>
+    </div>
+    <div class="none"></div>
+    <script src="./java/app.js"></script>
+</body>
+</html>
+

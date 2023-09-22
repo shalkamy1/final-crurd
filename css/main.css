@@ -1,0 +1,129 @@
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-grow: 1;
+
+}
+body{
+    background-color:burlywood;
+    height: 2000px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.mainform{
+    display: inline;
+    position: absolute;
+    /* right:%; */
+    left: 30%;
+    top:20%;
+justify-content: space-between;
+border: 1px solid black;
+border-radius: 20px;
+/* padding: 50px; */
+
+}
+.producttitle,.total,.added,.department,.btn{
+    padding: 10px;
+    border:1px solid black ;
+    border-radius: 20px;
+    background-color:burlywood ;
+    /* padding: 40px; */
+}
+input,button{
+    background-color:rgb(33, 13, 13);
+    color: burlywood;
+    border-radius: 30px;
+    height: 40px;
+  
+    
+}
+.producttitle input,.added input,.department input,.btn button{
+    width: 98%;
+
+}
+button{
+    cursor: pointer;
+}
+.maintable h1{
+    text-align: center;
+}
+.maintable{
+    position: absolute;
+ 
+    right: 25%;
+    top: 110%;
+    left: 28%;
+    
+}
+table{
+    border: 1px solid black;
+}
+table  th{
+    padding: 20px;
+    border: 1px solid black ;
+}
+table td{
+    padding: 20px;
+    border: 1px solid black ;
+}
+.clear{
+    width: 90%;
+    position: relative;
+    left: 2%;
+}
+
+.none{
+    display:none;
+}
+.updateBTN{
+    color: brown;
+}
+span
+{
+    color: red;
+    font-weight: bold;
+display: none;
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .mainform{
+        display: inline;
+        position: absolute;
+        /* right:%; */
+        left: 30%;
+        top:20%;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 50px; */
+    width: 50%;
+    }
+    .maintable{
+        position: absolute;
+        /* bottom: -100%; */
+        right: 25%;
+        top: 100%;
+        left: 28%;
+       width:50%; 
+
+    }
+    table{
+        border: 1px solid black;
+        padding: -50%;
+    }
+    table  th{
+        padding: -100%;
+        border: 1px solid black ;
+    }
+    .pticeinputs{
+        width:50px;
+    }
+
+}
+
